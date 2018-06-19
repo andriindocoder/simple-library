@@ -151,6 +151,7 @@ return [
          * Package Service Providers...
          */
         Collective\Html\HtmlServiceProvider::class,
+        Laratrust\LaratrustServiceProvider::class,
         /*
          * Application Service Providers...
          */
@@ -177,6 +178,7 @@ return [
 
         'Form' => Collective\Html\FormFacade::class,
         'Html' => Collective\Html\HtmlFacade::class,
+        'Laratrust'   => Laratrust\LaratrustFacade::class,
 
         'App' => Illuminate\Support\Facades\App::class,
         'Artisan' => Illuminate\Support\Facades\Artisan::class,
