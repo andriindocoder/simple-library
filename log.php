@@ -12,6 +12,6 @@ php artisan make:controller
 php artisan make:auth
 composer require "santigarcor/laratrust:5.0.*"
 php artisan vendor:publish --tag="laratrust"
-
+php artisan laratrust:setup
 
 */
